@@ -1,2 +1,40 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="row steps">
+  <div class="col-sm-3">
+    <figure class="step">
+      <%= image_tag("talk.svg", :class => "step-img") %>
+      <figcaption>
+        <h3 class="step-title">CONVERSEMOS</h3>
+        <p class="step-text">Queremos ayudarte, somos buenos escuchando y proponiendo</p>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="col-sm-3">
+    <figure class="step">
+      <%= image_tag("plan.svg", :class => "step-img") %>
+      <figcaption>
+        <h3 class="step-title">PLAN MAESTRO</h3>
+        <p class="step-text">Construiremos un plan para alcanzar tus metas, tenemos experiencia.</p>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="col-sm-3">
+    <figure class="step">
+      <%= image_tag("team.svg", :class => "step-img") %>
+      <figcaption>
+        <h3 class="step-title">EQUIPO</h3>
+        <p class="step-text">Habilidad es el trabajo en equipo, nos alinearemos para tu propósito</p>
+      </figcaption>
+    </figure>
+  </div>
+  <div class="col-sm-3">
+    <figure class="step">
+      <%= image_tag("sale.svg", :class => "step-img") %>
+      <figcaption>
+        <h3 class="step-title">VENDER</h3>
+        <p class="step-text">Te entregamos todas las herramientas para que tu idea se convierta en un negocio exitoso.</p>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<%= render "contacts/form"  %>

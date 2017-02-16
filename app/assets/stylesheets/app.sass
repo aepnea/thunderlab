@@ -1,0 +1,77 @@
+@font-face
+  font-family: 'bold'
+  src: url('bold-webfont.eot')
+  src: url('bold-webfont.eot?#iefix') format('embedded-opentype'), url('bold-webfont.woff2') format('woff2'), url('bold-webfont.woff') format('woff'), url('bold-webfont.ttf') format('truetype'), url('bold-webfont.svg#code_pro_bold_lcregular') format('svg')
+  font-weight: normal
+  font-style: normal
+@font-face
+  font-family: 'regular'
+  src: url('regular-webfont.eot')
+  src: url('regular-webfont.eot?#iefix') format('embedded-opentype'), url('regular-webfont.woff2') format('woff2'), url('regular-webfont.woff') format('woff'), url('regular-webfont.ttf') format('truetype'), url('regular-webfont.svg#code_pro_lcregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+$azul: #29abe2
+
+
+*
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+body
+  height: 100%
+header
+  padding: 35px 0
+  width: 100%
+  .logo
+    text-align: center
+    svg
+      margin: 0 auto
+      width: 230px
+  .menu
+    text-align: right
+    ul
+      list-style: none
+      margin: 0
+      padding: 45px 0
+      li
+        display: inline-block
+        margin: 0 16px 0 0
+        svg
+          width: 26px
+.contacto
+  margin-top: 16px
+.form-control
+  color: #ccc
+  font-family: 'bold'
+  font-size: 28px
+.hero
+  background: url('/background.jpg') center / cover
+  height: 100vh
+  width: 100%
+.speak
+  margin-top: 5%
+  h2
+    color: white
+    font-family: 'bold'
+    font-size: 28px
+    text-align: center
+.steps
+  background: $azul
+  border-radius: 3px 3px 0 0
+  margin-top: -175px
+  padding: 40px 0 0 0
+  .step
+    padding: 5px
+    text-align: center
+    .step-img
+      width: 135px
+    .step-text
+      color: white
+      font-family: 'regular'
+      font-size: 16px
+    .step-title
+      color: white
+      font-family: 'regular'
+      font-size: 20px
+      margin-top: 16px
+      text-transform: uppercase
