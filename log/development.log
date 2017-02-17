@@ -3879,3 +3879,163 @@ SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/config/routes.
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (187.9ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 15:17:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (252.8ms)
+  Rendered home/index.html.erb within layouts/application (3797.8ms)
+Completed 200 OK in 4715ms (Views: 4629.0ms | ActiveRecord: 43.3ms)
+
+
+Started GET "/assets/application.self-b99185e9a6afee0f05d7e584793c729c4d4bc2df2bf12f10401a6f79d23625aa.css?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2017-02-17 15:17:35 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 15:17:36 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 15:18:19 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (177.0ms)
+Completed 200 OK in 16229ms (Views: 16228.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a1b6f22f7b7f4cc8acc28ba5419087b2dd39c92a7024024c3133e9eae8762fc5.css?body=1" for ::1 at 2017-02-17 15:18:35 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 15:18:36 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 15:18:36 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 15:18:38 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 15:20:11 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (5.2ms)
+  Rendered home/index.html.erb within layouts/application (504.3ms)
+Completed 200 OK in 1349ms (Views: 1347.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 15:20:13 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 15:20:13 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 15:20:13 -0300
