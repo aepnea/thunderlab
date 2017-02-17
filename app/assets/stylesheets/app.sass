@@ -12,13 +12,30 @@
   font-style: normal
 
 $azul: #29abe2
-
+$naranjo: #f7931e
 
 *
   box-sizing: border-box
   -webkit-font-smoothing: antialiased
 body
   height: 100%
+footer
+  background: #4d4d4d
+  margin-top: 32px
+  padding: 32px 0
+  .footer-logo
+    text-align: center
+    .footer-img
+      width: 250px
+  .footer-info
+    margin-top: 32px
+    text-align: center
+    h3
+      color: $azul
+      font-family: 'regular'
+      font-size: 16px
+      span
+        color: $naranjo
 header
   padding: 35px 0
   width: 100%
@@ -38,8 +55,55 @@ header
         margin: 0 16px 0 0
         svg
           width: 26px
+.align-center
+  text-align: center
+.bajada
+  margin-top: 110px
+  h2
+    color: #666
+    font-family: 'bold'
+    font-size: 32px
+    text-align: center
+    width: 100%
+    span
+      color: $naranjo
+  p
+    color: $azul
+    font-family: 'regular'
+    padding: 0 5%
+    text-align: center
+    width: 100%
+.bajada-left
+  h2
+    color: #666
+    font-family: 'bold'
+    font-size: 32px
+    text-align: left
+    width: 100%
+  .bajada-left-img
+    width: 100%
 .contacto
   margin-top: 16px
+  .actions
+    margin: 45px 0
+    text-align: left
+    input[type="submit"]
+      background: $azul
+      border: none
+      border-radius: 3px
+      color: white
+      cursor: pointer
+      font-family: 'bold'
+      padding: 10px 30px
+.exito
+  p
+    color: $azul
+    font-family: 'bold'
+    font-size: 32px
+    text-align: center
+.field_with_errors
+  .form-control
+    border: 2px solid $naranjo
 .form-control
   color: #ccc
   font-family: 'bold'
@@ -47,14 +111,23 @@ header
 .hero
   background: url('/background.jpg') center / cover
   height: 100vh
+  max-height: 800px
   width: 100%
+.iso-background
+  background: url('iso.png')
+  background-position: right
+  background-repeat: no-repeat
+  background-size: 290px
+  padding: 100px 0
 .speak
   margin-top: 5%
   h2
-    color: white
+    color: $azul
     font-family: 'bold'
-    font-size: 28px
+    font-size: 32px
     text-align: center
+    span
+      color: white
 .steps
   background: $azul
   border-radius: 3px 3px 0 0
@@ -75,3 +148,44 @@ header
       font-size: 20px
       margin-top: 16px
       text-transform: uppercase
+.title-2
+  color: white
+  font-family: 'bold'
+  font-size: 24px
+  text-align: center
+  width: 100%
+.areas
+  background: $naranjo
+  border-radius: 0 0 3px 3px
+  padding: 40px 100px 0 100px
+  .area
+    margin: 0
+    padding: 35px 5px
+    position: relative
+    text-align: center
+    .area-img
+      left: 0
+      position: absolute
+      width: 80px
+    .area-text
+      color: white
+      font-family: 'regular'
+      font-size: 16px
+      padding-left: 85px
+      padding-right: 20px
+      padding-top: 8px
+      text-align: left
+  .area-two
+    margin-bottom: 32px
+    text-align: center
+    h2
+      color: white
+      font-family: 'regular'
+      font-size: 16px
+      margin: 0
+    h2,
+    img
+      display: inline-block
+      vertical-align: middle
+    img
+      width: 35px

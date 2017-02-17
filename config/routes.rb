@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :contacts
+  devise_for :admins
+  #resources :contacts, only [:new]
+  authenticated :admin do
+    resources :contacts
+  end
+
   root 'home#index'
 
   #get 'home/contact'

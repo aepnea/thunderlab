@@ -1997,3 +1997,1885 @@ Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 20:08:46 -0300
 
 
 Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 20:08:46 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:22:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (77.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (155.3ms)
+  Rendered home/index.html.erb within layouts/application (11803.5ms)
+Completed 200 OK in 12176ms (Views: 12067.9ms | ActiveRecord: 69.0ms)
+
+
+Started GET "/assets/application.self-8edaecc85b7a491d8ba9da7d97363cf6b6c2f714ecf33045902cc09d6e41851a.css?body=1" for ::1 at 2017-02-16 23:22:49 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for ::1 at 2017-02-16 23:22:49 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:22:49 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:22:49 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:23:58 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 5082ms (Views: 5081.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-884a87f0693d87cd73ac4299774a02309953411d69456f3553dec273bc32e8bb.css?body=1" for ::1 at 2017-02-16 23:24:03 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:24:03 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:24:03 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:27:15 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 4594ms (Views: 4593.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-587404cb9fc8ac9386aabbf077be95d576a2409a4c697ede87df360b7a4b46ce.css?body=1" for ::1 at 2017-02-16 23:27:19 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:27:20 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:27:20 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:28:03 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 4381ms (Views: 4380.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4ae5c4b5bb2cf36b33adda463c6c2b3d79f4e6ff76a066500eba95d1be7b62e3.css?body=1" for ::1 at 2017-02-16 23:28:08 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:28:08 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:28:08 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:29:05 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 4695ms (Views: 4694.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcd31e69ba22bfec0692341bc7dcbdde1cd0ee695e8f8ac9268d89ef1e360758.css?body=1" for ::1 at 2017-02-16 23:29:09 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:29:10 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:29:10 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:29:44 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:29:44 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:29:44 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:31:27 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (333.1ms)
+Completed 200 OK in 510ms (Views: 509.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for ::1 at 2017-02-16 23:31:28 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for ::1 at 2017-02-16 23:31:28 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:31:28 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:31:28 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:34:19 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for ::1 at 2017-02-16 23:34:19 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for ::1 at 2017-02-16 23:34:19 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:34:19 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:34:19 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:35:05 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 130ms (Views: 129.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:35:05 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:35:05 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:35:56 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:35:56 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:35:56 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:38:28 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 4511ms (Views: 4510.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1658848a0efa00ada49392bb3aa5a5ff829ede6b86718f0b26185dc8e7fbd935.css?body=1" for ::1 at 2017-02-16 23:38:32 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:38:32 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:38:32 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:39:05 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 4704ms (Views: 4703.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44281357976a4c86c97e95ec5131f380acd64488f89fb7d0810584cff897aaf6.css?body=1" for ::1 at 2017-02-16 23:39:09 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:39:10 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:39:10 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:39:41 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 5199ms (Views: 5197.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2ff0b6067f134b24d6e22f314f591548885e4799101f947f63155904f7e37d66.css?body=1" for ::1 at 2017-02-16 23:39:47 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:39:47 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:39:47 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:40:06 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:40:06 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:40:06 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:41:44 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 5331ms (Views: 5329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-31627244492c2ff8437f3035a7008a71b98bb4569c82609f0ff6ebe502c7de90.css?body=1" for ::1 at 2017-02-16 23:41:49 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:41:50 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:41:50 -0300
+
+
+Started GET "/" for ::1 at 2017-02-16 23:45:24 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 4661ms (Views: 4660.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6ae07b472abc252a8c40c9c7a39075880166d391f91eb2a9cc3edd38161aa5c2.css?body=1" for ::1 at 2017-02-16 23:45:29 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-16 23:45:29 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-16 23:45:29 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 00:04:07 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (8.7ms)
+  Rendered home/index.html.erb within layouts/application (48.2ms)
+Completed 200 OK in 6924ms (Views: 6919.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-95267c7d0e58c5633412aa38f1edeba7404816bc938a68767f515e1e67d3bf8a.css?body=1" for ::1 at 2017-02-17 00:04:14 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 00:04:15 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 00:04:15 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 00:05:35 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 4189ms (Views: 4187.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-72d6e80c43357167d062912b71a8a307282870ea5c5c46e23388414ee96ecc81.css?body=1" for ::1 at 2017-02-17 00:05:40 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 00:05:40 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 00:05:40 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 00:12:49 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 108ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 00:12:49 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 00:12:49 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 10:49:19 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (13.7ms)
+  Rendered home/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 7316ms (Views: 7310.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-935d12cb253bf3b297a4d824058998a85fd10063717f5cedf69f76259d816b88.css?body=1" for ::1 at 2017-02-17 10:49:26 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 10:49:27 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 10:49:27 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 10:49:53 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (51.4ms)
+Completed 200 OK in 6147ms (Views: 6146.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c9eac9cf6ef1891fab4ca1c61c7e97431bf44be3270c901bcf390f17c95b5320.css?body=1" for ::1 at 2017-02-17 10:50:00 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 10:50:00 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 10:50:00 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:01:43 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (18.1ms)
+  Rendered home/index.html.erb within layouts/application (154.8ms)
+Completed 200 OK in 9716ms (Views: 9708.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d1d3386ca42c8e4fe01fe7703da0558675a47674b5a1ed40245c11dd7e3c3289.css?body=1" for ::1 at 2017-02-17 11:01:53 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:01:54 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:01:54 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:02:16 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (231.4ms)
+Completed 200 OK in 8567ms (Views: 8566.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-743c9a2eb3787abbeb3fa4a48e0ff31f4772e0430fc413c2f4d376922f42502a.css?body=1" for ::1 at 2017-02-17 11:02:25 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:02:25 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:02:25 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:15:43 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (11.5ms)
+  Rendered home/index.html.erb within layouts/application (72.3ms)
+Completed 200 OK in 9303ms (Views: 9294.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ba046975962c63541c7c44671dda1f8584792bdd3ebd583ca1a3868d4b464ed.css?body=1" for ::1 at 2017-02-17 11:15:53 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:15:53 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:15:53 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:25:13 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (8.1ms)
+  Rendered home/index.html.erb within layouts/application (463.7ms)
+Completed 200 OK in 1385ms (Views: 1377.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/ministerio.png" for ::1 at 2017-02-17 11:25:15 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/ministerio.png"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (114.0ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (354.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.0ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (178.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:25:17 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:25:17 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:26:13 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (2514.2ms)
+Completed 200 OK in 2802ms (Views: 2801.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ministerio-590c6e0bd1893ede34367755620114ee3481dfe00f6626aac436179a2d4f9a27.png" for ::1 at 2017-02-17 11:26:16 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:26:16 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:26:16 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:27:22 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:85: syntax error, unexpected ',', expecting ')'
+...=( image_tag("ministerio.png"), :class => "bajada-left-img" ...
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:88: syntax error, unexpected ',', expecting ')'
+...d=( image_tag("toolmania.png"), :class => "bajada-left-img" ...
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:91: syntax error, unexpected ',', expecting ')'
+...end=( image_tag("nodriza.png"), :class => "bajada-left-img" ...
+...                               ^):
+  app/views/home/index.html.erb:85: syntax error, unexpected ',', expecting ')'
+  app/views/home/index.html.erb:88: syntax error, unexpected ',', expecting ')'
+  app/views/home/index.html.erb:91: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.2ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 11:27:43 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:85: syntax error, unexpected ',', expecting ')'
+...=( image_tag("ministerio.png"), :class => "bajada-left-img")...
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:85: syntax error, unexpected ')', expecting keyword_end
+... :class => "bajada-left-img") );@output_buffer.safe_append='
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:88: syntax error, unexpected ',', expecting ')'
+...d=( image_tag("toolmania.png"), :class => "bajada-left-img")...
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:88: syntax error, unexpected ')', expecting keyword_end
+... :class => "bajada-left-img") );@output_buffer.safe_append='
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:91: syntax error, unexpected ',', expecting ')'
+...end=( image_tag("nodriza.png"), :class => "bajada-left-img")...
+...                               ^
+/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/app/views/home/index.html.erb:91: syntax error, unexpected ')', expecting keyword_end
+... :class => "bajada-left-img") );@output_buffer.safe_append='
+...                               ^):
+  app/views/home/index.html.erb:85: syntax error, unexpected ',', expecting ')'
+  app/views/home/index.html.erb:85: syntax error, unexpected ')', expecting keyword_end
+  app/views/home/index.html.erb:88: syntax error, unexpected ',', expecting ')'
+  app/views/home/index.html.erb:88: syntax error, unexpected ')', expecting keyword_end
+  app/views/home/index.html.erb:91: syntax error, unexpected ',', expecting ')'
+  app/views/home/index.html.erb:91: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (230.0ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (162.6ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 11:28:16 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (331.5ms)
+Completed 200 OK in 11191ms (Views: 11190.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3bc9ec227a09f1a67dcfa52286f9c528113dfb3cdd7d67599d67a8984352ab6c.css?body=1" for ::1 at 2017-02-17 11:28:27 -0300
+
+
+Started GET "/assets/toolmania-bb8e7782db3aaa128a45a8f8e59d8f2c1f3f4c06e6f85fdf1ffcdbcdcf8eb253.png" for ::1 at 2017-02-17 11:28:27 -0300
+
+
+Started GET "/assets/nodriza-b3c70615c509b7ef8572e53fd64b9dfef45b00b9c47bedb4b063acddb94e68aa.png" for ::1 at 2017-02-17 11:28:28 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:28:28 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:28:28 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:39:38 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (9.1ms)
+  Rendered home/index.html.erb within layouts/application (558.3ms)
+Completed 200 OK in 1419ms (Views: 1411.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for ::1 at 2017-02-17 11:39:39 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for ::1 at 2017-02-17 11:39:40 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for ::1 at 2017-02-17 11:39:40 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:39:40 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:39:40 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:40:06 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (308.7ms)
+Completed 200 OK in 1641ms (Views: 1640.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:40:08 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:40:08 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:41:54 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (282.7ms)
+Completed 200 OK in 10381ms (Views: 10380.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7ff909a2b2a421ccc6da20f2b20461055d0bb40f378198d8f046c95a68a4e7d3.css?body=1" for ::1 at 2017-02-17 11:42:05 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:42:05 -0300
+
+
+Started GET "/iso.png" for ::1 at 2017-02-17 11:42:05 -0300
+
+ActionController::RoutingError (No route matches [GET] "/iso.png"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (168.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (111.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (188.4ms)
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:42:06 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:42:49 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (11.8ms)
+  Rendered home/index.html.erb within layouts/application (284.2ms)
+Completed 200 OK in 11518ms (Views: 11514.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8a4ff7db801bbd13186d014bac2ff41a4c0380711f694697d5a28ccfbc5c5c29.css?body=1" for ::1 at 2017-02-17 11:43:01 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:43:01 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:43:01 -0300
+
+
+Started GET "/iso.png" for ::1 at 2017-02-17 11:43:01 -0300
+
+ActionController::RoutingError (No route matches [GET] "/iso.png"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (73.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (152.4ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 11:43:36 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 5123ms (Views: 5121.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6f323cfa002e81f89f61361f7503ef9b979f8de2417c15fb36483a0bc5a60bba.css?body=1" for ::1 at 2017-02-17 11:43:41 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:43:41 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:43:41 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:43:41 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:43:57 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (229.5ms)
+Completed 200 OK in 8775ms (Views: 8773.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-261327d13f624df3baa2e99ba6ea6a16e7fc2b5151ee867050d9d618fd4a253f.css?body=1" for ::1 at 2017-02-17 11:44:06 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:44:06 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:44:07 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:44:08 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:44:36 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 6798ms (Views: 6797.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-42c699a0533a45eebb292c6161c1eafe39cfb29b47852ed601674a59db2132c5.css?body=1" for ::1 at 2017-02-17 11:44:42 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:44:43 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:44:43 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:45:08 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (282.9ms)
+Completed 200 OK in 10314ms (Views: 10313.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-84eb67b88b03f21ede330bd437fa200be08121b5f91ec37a323869777bf7149e.css?body=1" for ::1 at 2017-02-17 11:45:18 -0300
+
+
+Started GET "/assets/background.jpg" for ::1 at 2017-02-17 11:45:18 -0300
+
+ActionController::RoutingError (No route matches [GET] "/assets/background.jpg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (165.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (99.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (234.6ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:45:19 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:45:19 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:45:19 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:45:31 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 5282ms (Views: 5280.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44a1de1e1d0509748c983651531f2c22bda6af8f42070e81f0db73e919b49e37.css?body=1" for ::1 at 2017-02-17 11:45:36 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:45:37 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:45:37 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:45:37 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:47:25 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (8.9ms)
+  Rendered home/index.html.erb within layouts/application (208.8ms)
+Completed 200 OK in 8361ms (Views: 8353.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d6041d01d92de6202f7fbd3e4cb5a604a35814715e8f393b82d667d96dae84ac.css?body=1" for ::1 at 2017-02-17 11:47:34 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:47:34 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:47:34 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:47:34 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:53:49 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (8.3ms)
+  Rendered home/index.html.erb within layouts/application (456.7ms)
+Completed 200 OK in 13618ms (Views: 13609.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bda2c6260d85222a107d9ac2edc07ed1b3f65f87880d08c6a08caf2c6e362513.css?body=1" for ::1 at 2017-02-17 11:54:03 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:54:04 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:54:04 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:54:04 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:55:27 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (437.3ms)
+Completed 200 OK in 1250ms (Views: 1249.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:55:29 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:55:29 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:55:29 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:56:18 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (164.7ms)
+Completed 200 OK in 1131ms (Views: 1130.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:56:19 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:56:19 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:56:19 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 11:57:17 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 10096ms (Views: 10095.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-bc681114d3158a940c1753c018044fe15d7f975163a40d226344317f671fb3ec.css?body=1" for ::1 at 2017-02-17 11:57:27 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 11:57:27 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 11:57:27 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 11:57:27 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:01:57 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (105.1ms)
+Completed 200 OK in 7863ms (Views: 7862.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-70b47ffa8ca9563b697175783074f14c3b1a28440d0c87361b84036c4b72694d.css?body=1" for ::1 at 2017-02-17 12:02:05 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:02:05 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:02:05 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:02:05 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:02:14 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 95ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:02:14 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:02:14 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:02:14 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:27:00 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (9.9ms)
+  Rendered home/index.html.erb within layouts/application (332.2ms)
+Completed 200 OK in 10967ms (Views: 10948.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eb1032263fd161b11116ca1966af0c24a5a81e08d930ed2e256ab4d3c3d15f52.css?body=1" for ::1 at 2017-02-17 12:27:11 -0300
+
+
+Started GET "/images/logo-color.svg" for ::1 at 2017-02-17 12:27:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/logo-color.svg"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (117.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (172.6ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:27:12 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:27:13 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:27:13 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:28:43 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (156.3ms)
+Completed 200 OK in 9940ms (Views: 9939.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0095927955acaec6502503f2bc9e7befc2a97938356a00ba68a752ba39aa8c77.css?body=1" for ::1 at 2017-02-17 12:28:53 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for ::1 at 2017-02-17 12:28:53 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:28:53 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:28:53 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:28:53 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:31:02 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (44.0ms)
+Completed 200 OK in 7931ms (Views: 7930.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d174529a261be7ffac1c0a404111ada88f5c040a7ac81048ac6d9ac6cfc47140.css?body=1" for ::1 at 2017-02-17 12:31:10 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:31:10 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:31:10 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:31:10 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:31:30 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 4367ms (Views: 4366.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3002ef507f5759223578ef4d9f151b0baa0a356d14143ef738a5485c07a71afa.css?body=1" for ::1 at 2017-02-17 12:31:35 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:31:35 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:31:35 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:31:35 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:31:53 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 4377ms (Views: 4375.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4fb4282fc52c0ccd4e4d9dd5359cb90c3045da46b56a15db369de23edfa22598.css?body=1" for ::1 at 2017-02-17 12:31:57 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:31:58 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:31:58 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:31:58 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:32:51 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 8066ms (Views: 8065.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d51324856abe2c37606e544caf7c3004166ebc3abd6d8b1c50255142a4e6ce97.css?body=1" for ::1 at 2017-02-17 12:33:02 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:33:03 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:33:03 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:33:03 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:37:58 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (7.5ms)
+  Rendered home/index.html.erb within layouts/application (110.2ms)
+Completed 200 OK in 8195ms (Views: 8186.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-29882c4406c123dfb1b5d9979a39ac021d1e6058f5f452cb3fb31717c6762041.css?body=1" for ::1 at 2017-02-17 12:38:06 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:38:06 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:38:06 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:38:07 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:45:04 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 8843ms (Views: 8841.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a37bcf28ddb9d2a542bb515663dc41c7e4d90f4d7870e00b53663bb6779401b6.css?body=1" for ::1 at 2017-02-17 12:45:13 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:45:14 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:45:14 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:45:14 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:45:26 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (53.1ms)
+Completed 200 OK in 5033ms (Views: 5032.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fbef760625421acb6f3b6ef1248f1e67c5702b1b193259de3111fa9de69caaf5.css?body=1" for ::1 at 2017-02-17 12:45:32 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:45:32 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:45:32 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:45:32 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:46:51 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 7587ms (Views: 7586.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2d18089abe6cd1edd4d36572959108119b42e56cab556f117dac173eac6082a3.css?body=1" for ::1 at 2017-02-17 12:46:59 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:46:59 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:46:59 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:46:59 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:48:39 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (460.2ms)
+Completed 200 OK in 1097ms (Views: 1096.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:48:41 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:48:41 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:48:41 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 12:48:47 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (5.0ms)
+  Rendered home/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 305ms (Views: 303.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 12:48:47 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 12:48:48 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 12:48:48 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:02:18 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (365.6ms)
+Completed 200 OK in 12299ms (Views: 12298.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce1a3e5ac7856efde7e5cfb5cd84d6108851e361c303e6a2f292a0ef97b98350.css?body=1" for ::1 at 2017-02-17 13:02:31 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:02:31 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:02:31 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:02:31 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:03:45 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (98.6ms)
+Completed 200 OK in 8485ms (Views: 8484.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-61ee57ddd294da976e64d35465e15d8c3a18bf1dea407bbc7361ae8a9aebd2e8.css?body=1" for ::1 at 2017-02-17 13:03:53 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:03:54 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:03:54 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:03:54 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:04:22 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 5013ms (Views: 5011.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-76dc11fbca65e8e4dd409da33b71d0b58a9bf3047b44a2ff553504e5d2e4c99b.css?body=1" for ::1 at 2017-02-17 13:04:27 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:04:27 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:04:27 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:04:27 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:04:47 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 6079ms (Views: 6077.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-372715c170dad9ab19d6d72e224e5c9175ca63349dadb8633608367d60e66731.css?body=1" for ::1 at 2017-02-17 13:04:53 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:04:54 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:04:54 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:04:54 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:14:43 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (85.8ms)
+Completed 200 OK in 8821ms (Views: 8820.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a5bbbec3791527e50dfa25f4cb207b71b556f112aca5aa358bb46f77c072dd0b.css?body=1" for ::1 at 2017-02-17 13:14:52 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:14:52 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:14:52 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:14:52 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:18:34 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (410.3ms)
+Completed 200 OK in 11909ms (Views: 11908.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cbc3c0a825dadd657e164557b929233de3639b8240a00773e109992a219ff9e9.css?body=1" for ::1 at 2017-02-17 13:18:47 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for ::1 at 2017-02-17 13:18:47 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:18:47 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:18:47 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:18:47 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:34:33 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (191.8ms)
+Completed 200 OK in 10120ms (Views: 10119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0f9834be604f344dcb8fb6809d5e4f12edaa9cf79f3bb4f79010b8bf211d719e.css?body=1" for ::1 at 2017-02-17 13:34:43 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:34:44 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:34:44 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:34:44 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:36:55 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (5.0ms)
+  Rendered home/index.html.erb within layouts/application (134.4ms)
+Completed 200 OK in 10102ms (Views: 10101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8b9d95d800d7e4e791e0b28dde1ff7163522ca57b4fad77eed2d4aa73afac36b.css?body=1" for ::1 at 2017-02-17 13:37:06 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:37:06 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:37:06 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:37:06 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:37:37 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (108.1ms)
+Completed 200 OK in 5531ms (Views: 5530.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fb11c12829ae8c1ef93e932f59afd8c85d4c36b3f807f4d6a33bc5d98d6e12f0.css?body=1" for ::1 at 2017-02-17 13:37:43 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:37:43 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:37:43 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:37:43 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:45:11 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (81.8ms)
+Completed 200 OK in 8698ms (Views: 8697.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-459653a7bb3def8204fe71fa372a9112138f12d8df1f38bd0b812f8b2ae1ef60.css?body=1" for ::1 at 2017-02-17 13:45:19 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:45:20 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:45:20 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:45:20 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:47:39 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (683.5ms)
+Completed 200 OK in 11343ms (Views: 11342.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b176f83f575876c9274d88cd6dd274f0cbe69e5d9ba20eeb81504f6808885a35.css?body=1" for ::1 at 2017-02-17 13:47:51 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:47:51 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:47:51 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:47:51 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 13:56:25 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (597.3ms)
+Completed 200 OK in 16142ms (Views: 16141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c8f939edc10b718aff553b1b26febdeb872491435aa879a67e55b14afc24034a.css?body=1" for ::1 at 2017-02-17 13:56:41 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for ::1 at 2017-02-17 13:56:41 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:56:42 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 13:56:42 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:56:42 -0300
+
+
+Started POST "/contacts" for ::1 at 2017-02-17 13:56:59 -0300
+Processing by ContactsController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"juan", "email"=>"hola@b.c", "body"=>"Quiero caca"}, "commit"=>"Create Contact"}
+  [1m[35m (82.0ms)[0m  BEGIN
+  [1m[36mSQL (148.9ms)[0m  [1mINSERT INTO `contacts` (`name`, `email`, `body`, `created_at`, `updated_at`) VALUES ('juan', 'hola@b.c', 'Quiero caca', '2017-02-17 16:56:59', '2017-02-17 16:56:59')[0m
+  [1m[35m (193.6ms)[0m  COMMIT
+  Rendered contacts/_contact.json.jbuilder (0.7ms)
+  Rendered contacts/show.json.jbuilder (206.0ms)
+Completed 201 Created in 663ms (Views: 232.6ms | ActiveRecord: 424.5ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 13:58:01 -0300
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13:   </thead>
+    14: 
+    15:   <tbody>
+    16:     <% @contacts.each do |contact| %>
+    17:       <tr>
+    18:         <td><%= contact.name %></td>
+    19:         <td><%= contact.email %></td>
+  app/views/contacts/index.html.erb:16:in `_app_views_contacts_index_html_erb___1522712624823051421_70209078891000'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (182.1ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 13:58:56 -0300
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    13:   </thead>
+    14: 
+    15:   <tbody>
+    16:     <% @contacts.each do |contact| %>
+    17:       <tr>
+    18:         <td><%= contact.name %></td>
+    19:         <td><%= contact.email %></td>
+  app/views/contacts/index.html.erb:16:in `_app_views_contacts_index_html_erb___1522712624823051421_70209078891000'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (158.0ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 13:59:26 -0300
+Processing by ContactsController#index as HTML
+  [1m[36mContact Load (0.5ms)[0m  [1mSELECT `contacts`.* FROM `contacts`[0m
+  Rendered contacts/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 216ms (Views: 152.3ms | ActiveRecord: 47.6ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 13:59:27 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 13:59:27 -0300
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-17 13:59:47 -0300
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mContact Load (0.5ms)[0m  SELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 1 LIMIT 1
+  Rendered contacts/_form.html.erb (1.7ms)
+  Rendered contacts/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 480ms (Views: 102.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-17 13:59:47 -0300
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mContact Load (0.9ms)[0m  [1mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 1 LIMIT 1[0m
+  Rendered contacts/_form.html.erb (1.4ms)
+  Rendered contacts/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 210ms (Views: 207.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 13:59:50 -0300
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (3.1ms)[0m  SELECT `contacts`.* FROM `contacts`
+  Rendered contacts/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 274ms (Views: 261.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 14:00:46 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (2.3ms)
+  Rendered home/index.html.erb within layouts/application (111.6ms)
+Completed 200 OK in 422ms (Views: 421.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:00:47 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:00:47 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:00:47 -0300
+
+
+Started POST "/contacts" for ::1 at 2017-02-17 14:00:50 -0300
+Processing by ContactsController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"", "email"=>"", "body"=>""}, "commit"=>"Create Contact"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 14:05:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (82.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (366.3ms)
+  Rendered home/index.html.erb within layouts/application (20903.1ms)
+Completed 200 OK in 22206ms (Views: 22129.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for ::1 at 2017-02-17 14:05:43 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for ::1 at 2017-02-17 14:05:43 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:05:43 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:05:43 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:05:43 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 14:07:07 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (4.5ms)
+  Rendered home/index.html.erb within layouts/application (240.1ms)
+Completed 200 OK in 13761ms (Views: 13760.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b99185e9a6afee0f05d7e584793c729c4d4bc2df2bf12f10401a6f79d23625aa.css?body=1" for ::1 at 2017-02-17 14:07:22 -0300
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:07:23 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:07:23 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:07:23 -0300
+
+
+Started GET "/" for ::1 at 2017-02-17 14:11:22 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (6.2ms)
+  Rendered home/index.html.erb within layouts/application (81.3ms)
+Completed 200 OK in 782ms (Views: 723.6ms | ActiveRecord: 51.6ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:11:23 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:11:23 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:11:23 -0300
+
+
+Started POST "/contacts" for ::1 at 2017-02-17 14:12:24 -0300
+Processing by ContactsController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"juan", "email"=>"hola@b.c", "body"=>"Hola como estan"}, "commit"=>"Create Contact"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (27.6ms)[0m  [1mINSERT INTO `contacts` (`name`, `email`, `body`, `created_at`, `updated_at`) VALUES ('juan', 'hola@b.c', 'Hola como estan', '2017-02-17 17:12:24', '2017-02-17 17:12:24')[0m
+  [1m[35m (66.4ms)[0m  COMMIT
+  Rendered contacts/_contact.json.jbuilder (0.6ms)
+  Rendered contacts/show.json.jbuilder (40.8ms)
+Completed 201 Created in 166ms (Views: 67.4ms | ActiveRecord: 94.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateAdmins (20170217171936)
+  [1m[35m (3083.8ms)[0m  CREATE TABLE `admins` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (1343.3ms)[0m  [1mCREATE UNIQUE INDEX `index_admins_on_email`  ON `admins` (`email`) [0m
+  [1m[35m (647.1ms)[0m  CREATE UNIQUE INDEX `index_admins_on_reset_password_token`  ON `admins` (`reset_password_token`) 
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (88.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20170217171936')
+  [1m[36m (68.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (156.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'thunder_dev'
+  AND fk.table_name = 'admins'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `admins`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'thunder_dev'
+  AND fk.table_name = 'contacts'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `contacts`
+
+
+Started GET "/" for ::1 at 2017-02-17 14:39:48 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (440.8ms)
+  Rendered home/index.html.erb within layouts/application (7544.2ms)
+Completed 200 OK in 8442ms (Views: 8375.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:39:58 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:39:58 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:39:58 -0300
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 14:40:09 -0300
+Processing by ContactsController#index as HTML
+  [1m[35mContact Load (0.5ms)[0m  SELECT `contacts`.* FROM `contacts`
+  Rendered contacts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 127ms (Views: 126.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:40:10 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:40:10 -0300
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 14:42:34 -0300
+
+SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+  resources :contacts, only [:create]
+                             ^):
+  config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (86.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (149.9ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-17 14:43:07 -0300
+
+ActionController::RoutingError (No route matches [GET] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (584.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (713.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.6ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 14:43:13 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (4.8ms)
+  Rendered home/index.html.erb within layouts/application (114.3ms)
+Completed 200 OK in 424ms (Views: 351.4ms | ActiveRecord: 42.3ms)
+
+
+Started GET "/assets/bold-webfont.woff2" for ::1 at 2017-02-17 14:43:14 -0300
+
+
+Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 14:43:14 -0300
+
+
+Started GET "/assets/iso.png" for ::1 at 2017-02-17 14:43:14 -0300
+
+
+Started POST "/contacts" for ::1 at 2017-02-17 14:45:48 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/oroborusm/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (26.2ms)
+
+
+Started GET "/" for ::1 at 2017-02-17 14:46:37 -0300
+
+SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+  resources :contacts, only [:new]
+                             ^):
+  config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.1ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (187.9ms)
