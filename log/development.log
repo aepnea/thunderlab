@@ -3879,6 +3879,7 @@ SyntaxError (/Users/oroborusm/Dropbox/thunderlab/sitio/thunderlab/config/routes.
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
   Rendered /Users/oroborusm/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (187.9ms)
+<<<<<<< Updated upstream
 
 
 Started GET "/" for ::1 at 2017-02-17 15:17:30 -0300
@@ -4039,3 +4040,1161 @@ Started GET "/assets/iso.png" for ::1 at 2017-02-17 15:20:13 -0300
 
 
 Started GET "/assets/regular-webfont.woff2" for ::1 at 2017-02-17 15:20:13 -0300
+=======
+  [1m[36m (19.5ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (24.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateContacts (20170216162203)
+  [1m[35m (28.3ms)[0m  CREATE TABLE `contacts` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `body` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20170216162203')
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateAdmins (20170217171936)
+  [1m[35m (31.9ms)[0m  CREATE TABLE `admins` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (5.6ms)[0m  [1mCREATE UNIQUE INDEX `index_admins_on_email`  ON `admins` (`email`) [0m
+  [1m[35m (6.0ms)[0m  CREATE UNIQUE INDEX `index_admins_on_reset_password_token`  ON `admins` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20170217171936')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (14.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'thunder_dev'
+  AND fk.table_name = 'admins'
+[0m
+  [1m[35m (0.5ms)[0m  SHOW CREATE TABLE `admins`
+  [1m[36m (0.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'thunder_dev'
+  AND fk.table_name = 'contacts'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `contacts`
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:30:25 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (35.2ms)
+  Rendered home/index.html.erb within layouts/application (7911.1ms)
+Completed 200 OK in 8134ms (Views: 8112.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-16afeca0dc8c4123b3d34c7016de065bcb6da33ed923aeaef1da19216bf907dc.css?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:30:33 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (121.3ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (76.4ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (172.3ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2017-02-17 15:30:34 -0300
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.5ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (94.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (233.4ms)
+>>>>>>> Stashed changes
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:35:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:35:24 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:35:24 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (27.4ms)
+  Rendered home/index.html.erb within layouts/application (4992.4ms)
+Completed 200 OK in 5161ms (Views: 5142.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/application.self-9c8599770fe084a32975483e6b098c05283a89b16bdd1851c81a1ed0761f87a1.css?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:35:30 -0300
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:41:51 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (24.1ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:41:57 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (24.9ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:42:02 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (24.7ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:42:31 -0300
+
+SyntaxError (/Users/AEpnea/Documents/Development/thunderlab/config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+  resources :contacts, only [:new]
+                             ^):
+  config/routes.rb:3: syntax error, unexpected [, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (3.1ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (69.1ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:42:55 -0300
+
+NoMethodError (undefined method `only' for #<ActionDispatch::Routing::Mapper:0x007faea353fcd8>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (63.0ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:43:05 -0300
+
+NoMethodError (undefined method `only' for #<ActionDispatch::Routing::Mapper:0x007fae9b480ef8>):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.9ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (61.5ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:44:06 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (21.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (3.6ms)
+  Rendered home/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 111ms (Views: 96.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-9c8599770fe084a32975483e6b098c05283a89b16bdd1851c81a1ed0761f87a1.css?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:52:07 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:52:08 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:52:08 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:52:08 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:52:08 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:52:08 -0300
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:52:17 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 86ms (Views: 77.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-9c8599770fe084a32975483e6b098c05283a89b16bdd1851c81a1ed0761f87a1.css?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:56:55 -0300
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:57:03 -0300
+Processing by ContactsController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"asdasd", "email"=>"asasd@sds.cl", "body"=>"wfsdfsdf"}, "commit"=>"Create Contact"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (17.3ms)[0m  [1mINSERT INTO `contacts` (`name`, `email`, `body`, `created_at`, `updated_at`) VALUES ('asdasd', 'asasd@sds.cl', 'wfsdfsdf', '2017-02-17 18:57:03', '2017-02-17 18:57:03')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered contacts/_contact.json.jbuilder (0.5ms)
+  Rendered contacts/show.json.jbuilder (5.2ms)
+Completed 201 Created in 37ms (Views: 15.5ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (3.6ms)
+  Rendered home/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 82ms (Views: 72.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/application.self-9c8599770fe084a32975483e6b098c05283a89b16bdd1851c81a1ed0761f87a1.css?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:58:17 -0300
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 15:58:35 -0300
+
+ActionController::RoutingError (No route matches [POST] "/contacts"):
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7.1) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/AEpnea/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/AEpnea/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+Processing by HomeController#index as HTML
+  Rendered contacts/_form.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 95ms (Views: 88.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-9c8599770fe084a32975483e6b098c05283a89b16bdd1851c81a1ed0761f87a1.css?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/util.self-5ae5b599fc2afe0f317696c5dfc0b51d6ce2ecb47d0341d1555b2fe971ada496.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/tether/tether.self-0e1103bd72084f20bc17863434595ea99e999bcf530d80110698608f35ff5620.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/button.self-30412f39aaa761313878531076ce8187fe6c017e42111bf2c283fce4a7c850f8.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-5a586b490b4c9332249b231956b361b852b128a0d82f7f08549f205bba1bfeb0.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-a406636221efb5add01fbaa60c24ac0ae6bc0c57008d8e2503d68f49fbe75ad0.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-e3abc2817f699a2be95f78a4aff190ef7669d5590adbacd0c08867eb34ed16c6.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-7d459fac34d4d96fd9d6da8efcd40dee55b66579a24ddcebf0a355c82dcad7e0.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/rails.validations.self-2d8b3613a47140b349a6a0bc0070024d97edd236646e17ece3d764b35a6716da.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-f18afa468f85125228747ec83e00e56a26bbc71295e90a3848af25b258445615.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-94c7455a70c5bb5ad5b3eae0c70388160c238afdea0b48d5345587fd176fb52d.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-66781adda319363e67c65edfc73459411bd3948c0f32efddbc9928b810d5abf4.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-dd8a9f3fa1f9fc58df30c7ed9a17dfc7303b812d72640899beee03609124b426.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/app.self-62f2cd1bec2946e2418a31b9467a02018075cb272a4825ab80a2e0045d6397a7.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-954f8384ac380992dd91b2b176b570b0792365a334efb758774c718d9628a329.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/talk-056527e7063a7e2e856dcc9c6eb086677382e2d15381f909d86c0ba426489540.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/ux-b4f925322b0afd719b9ad9fff6c682db528a4b0bf56bfe08990c8dd8081b8db4.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/sale-cc5b3ea9520e42b64f5da29bbd9a8d2644e4f87070ba9834bce8cf157f5190c7.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/plan-78f854104ba88ae81cec7c760b46ed729f28b4b6c6fc8b259808ca90276cbdb8.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/team-2c1234a102ae6e57fc25f4e672780389cca8108bbcbe5d3cee369a4154b7e377.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/dev-6905a82770aa7cce0a0ab95b47a6b9259bdbbcb27f67e054ed8817fad6c87414.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/seo-098aa5248eeb3f60862668208d4c3b44c95a7a8ebdef5c28d79702e602494feb.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/gear-7846314884b61445b6dcf988128e9b6fa64312f6aa8555b460aca9ffa9e89146.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/bold-webfont.woff" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/nodriza-4381fd10256be01ac491186bf2ffd0eb17f2d67f4110cc208144da6dfa9341e8.png" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/logo-color-d88bb51e510cc2f02e43f4a4b672659df38662710510f1e3c3b86f87d7be8dee.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/iso.png" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/expert-415e00125ccbc440fbfbaca44cc1cef69408b792eb9e0f75ed60629aa56f7de7.svg" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/ministerio-ec3279663307825928ad74209b76187d1829351e1b2fa4e0a3dabdac7e2e6c57.png" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/regular-webfont.woff" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started GET "/assets/toolmania-bebe303221c68bdafd31a325d5791c7fd816067d3dd0915de5dc17a6e1991d2c.png" for 127.0.0.1 at 2017-02-17 15:59:36 -0300
+
+
+Started POST "/contacts" for 127.0.0.1 at 2017-02-17 16:00:16 -0300
+Processing by ContactsController#create as JS
+  Parameters: {"utf8"=>"✓", "contact"=>{"name"=>"werwer", "email"=>"werwe@dfdf.cl", "body"=>"sdfsdf"}, "commit"=>"Create Contact"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `contacts` (`name`, `email`, `body`, `created_at`, `updated_at`) VALUES ('werwer', 'werwe@dfdf.cl', 'sdfsdf', '2017-02-17 19:00:16', '2017-02-17 19:00:16')
+  [1m[36m (5.5ms)[0m  [1mCOMMIT[0m
+  Rendered contacts/_contact.json.jbuilder (0.2ms)
+  Rendered contacts/show.json.jbuilder (1.3ms)
+Completed 201 Created in 20ms (Views: 11.1ms | ActiveRecord: 6.0ms)
