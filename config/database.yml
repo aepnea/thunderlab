@@ -9,8 +9,8 @@ default: &default
   pool: 5
   timeout: 5000
   encoding: utf8
-  socket: /var/run/mysqld/mysqld.sock
-  password: "canis"
+  socket: /tmp/mysql.sock
+  password: ""
 
 development:
   <<: *default
